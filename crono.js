@@ -36,3 +36,5 @@ function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 setInterval(countdown, 1000);
+setInterval(console.log(new Date().getMilliseconds()), 1000)
+console.log((new Date(sm1) - new Date() / 1000) / 3600 / 24)
